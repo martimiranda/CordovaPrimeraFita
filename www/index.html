@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Login</h1> 
+            <input type="text" placeholder="Nom d'usuari" id="user"></input> 
+            <br> 
+            <input type="password" placeholder="Contrasenya" id="pwd"></input> 
+            <br>
+            <button onclick="checkLogin();return false;">Enviar</button>
+        </div>
+
+        <div class="form-container">
+            <h1>Register</h1> 
+            <input type="text" placeholder="Nom d'usuari" id="userR" required></input> 
+            <br> 
+            <input type="password" placeholder="Contrasenya" id="pwdR" required></input> 
+            <br>
+            <input type="password" placeholder="Repeteix la contrasenya" id="pwdR2" required></input>
+            <button onclick="checkRegister();return false;">Enviar</button>
+        </div>
+    </div>
+</body>
+</html>
